@@ -15,8 +15,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var scrollView: UIScrollView!
     
-    fileprivate let genderPickerData = ["", "Male", "Female", "Prefer not to share"]
-    fileprivate let preferencePickerData = ["", "Relationship","Friendship", "Other"]
+    fileprivate let genderPickerData = ["Select one...", "Male", "Female", "Prefer not to share"]
+    fileprivate let preferencePickerData = ["Choose one...", "Relationship","Friendship", "Other"]
     
     fileprivate let genderPicker = UIPickerView()
     fileprivate let preferencePicker = UIPickerView()
@@ -144,6 +144,7 @@ extension ViewController: UIPickerViewDelegate, UIPickerViewDataSource {
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         if pickerView == genderPicker {
             genderTextField.text = genderPickerData[row]
+            return
         }
         preferenceTextField.text = preferencePickerData[row]
     }

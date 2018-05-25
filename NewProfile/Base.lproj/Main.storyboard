@@ -261,6 +261,7 @@
                     <navigationItem key="navigationItem" id="MLd-IX-vDm"/>
                     <size key="freeformSize" width="375" height="667"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="x1K-Ds-BCw">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -316,7 +317,7 @@
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hZS-1V-kDj">
                                 <rect key="frame" x="0.0" y="75" width="375" height="592"/>
                                 <connections>
-                                    <segue destination="SO8-78-7G5" kind="embed" id="Bfx-lM-hGI"/>
+                                    <segue destination="SO8-78-7G5" kind="embed" id="NU3-P0-4io"/>
                                 </connections>
                             </containerView>
                         </subviews>
